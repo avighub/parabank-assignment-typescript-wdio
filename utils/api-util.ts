@@ -8,8 +8,6 @@ class ApiUtils {
     };
     try {
       const response = await axios.request(options);
-      console.log(response.data);
-      console.log(response.status);
       return response;
     } catch (error) {
       console.error(error);
